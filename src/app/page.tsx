@@ -1,9 +1,10 @@
+import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import Navbar from "./navbar/Navbar";
+
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="min-h-screen bg-black/[0.96] antialised bg-grid-white/[0.02]">
       <Navbar/>
      
     </main>
