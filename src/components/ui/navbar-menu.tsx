@@ -30,7 +30,7 @@ export const MenuItem = ({
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
       >
-        {item}
+        {item} 
       </motion.p>
       {active !== null && (
         <motion.div
@@ -119,3 +119,4 @@ export const HoveredLink = ({ children, ...rest }: any) => {
     </Link>
   );
 };
+// checking
